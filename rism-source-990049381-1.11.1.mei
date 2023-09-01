@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Sancho Pança dans son isle - V (X), orch</title>
+            <title type="subordinate" label="1.11.1">[SCENE XII.] Romance.</title>
+            <composer>Philidor, François-André (1726-1795)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-25-04:53:43" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049381" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049381/incipits/1.11.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m1r78e3w">
+            <score xml:id="sjepdrb">
+               <scoreDef xml:id="s1y47wy7">
+                  <keySig xml:id="k13viyd2" sig="3s" />
+                  <staffGrp xml:id="smeaduc">
+                     <staffDef xml:id="s4oqxce" n="1" lines="5" clef.shape="C" clef.line="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="sqqgytg">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s1yevvwh" n="1">
+                        <layer xml:id="l1sqgsul" n="1">
+                           <rest xml:id="rzodm98" dur="2" />
+                           <note xml:id="n1mj6nxn" dur="4" oct="4" pname="e" />
+                           <note xml:id="n1d0qcvg" dur="4" oct="4" pname="a" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s11rutd2" n="1">
+                        <layer xml:id="lwigvp2" n="1">
+                           <beam xml:id="b1eyoooy">
+                              <note xml:id="neeh8fz" dur="16" oct="4" pname="a" />
+                              <note xml:id="n5odh2d" dots="1" dur="8" oct="4" pname="g">
+                                 <accid xml:id="ajwwkjn" accid.ges="s" />
+                              </note>
+                           </beam>
+                           <beam xml:id="bwtw03u">
+                              <note xml:id="n16gprxv" dur="16" oct="4" pname="f">
+                                 <accid xml:id="azub3xf" accid.ges="s" />
+                              </note>
+                              <note xml:id="n1w2vfrn" dots="1" dur="8" oct="4" pname="e" />
+                           </beam>
+                           <note xml:id="nk6xyvl" dur="4" oct="4" pname="f">
+                              <accid xml:id="azv1mc9" accid.ges="s" />
+                           </note>
+                           <note xml:id="nhghzyb" dur="4" oct="4" pname="f">
+                              <accid xml:id="a14qhuvu" accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="s1ho95rp" n="1">
+                        <layer xml:id="l1wvbc8t" n="1">
+                           <note xml:id="ngx8bjh" dur="4" oct="4" pname="a" />
+                           <note xml:id="n82fpt" dur="4" oct="4" pname="e" />
+                           <note xml:id="n3elz0m" dur="4" oct="4" pname="a" />
+                           <note xml:id="n1bb0tuc" dur="8" oct="5" pname="c" grace="acc" stem.dir="up">
+                              <accid xml:id="a1dict13" accid.ges="s" />
+                           </note>
+                           <note xml:id="n6sh6uc" dur="4" oct="4" pname="b" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s4s4uc4" n="1">
+                        <layer xml:id="lo3qcsy" n="1">
+                           <beam xml:id="b12ecyql">
+                              <note xml:id="ngj8qwy" dur="8" oct="5" pname="c">
+                                 <accid xml:id="acz237t" accid.ges="s" />
+                              </note>
+                              <note xml:id="nfggj11" dur="8" oct="5" pname="d" />
+                           </beam>
+                           <note xml:id="n1waypqj" dur="4" oct="5" pname="e" />
+                           <note xml:id="nfx25hn" dur="4" oct="5" pname="d" />
+                           <note xml:id="n3ie8ud" dur="4" oct="5" pname="c">
+                              <accid xml:id="awxt00x" accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="invis">
+                     <staff xml:id="sgtp1zt" n="1">
+                        <layer xml:id="l1wb3e2s" n="1">
+                           <note xml:id="n37hn12" dur="8" oct="5" pname="c" grace="acc" stem.dir="up">
+                              <accid xml:id="advl5ld" accid.ges="s" />
+                           </note>
+                           <note xml:id="n1kyp1ws" dur="2" oct="4" pname="b" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
