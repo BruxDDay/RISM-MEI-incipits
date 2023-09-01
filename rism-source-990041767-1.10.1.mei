@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Déserteur - V (X), orch</title>
+            <title type="subordinate" label="1.10.1">ACTE II. SCENE II. All[egr]|o ma non tropo</title>
+            <composer>Monsigny, Pierre-Alexandre (1729-1817)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-04-06-21:26:53" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990041767" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990041767/incipits/1.10.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.15.0-5abc7c0">
+               <name>Verovio (3.15.0-5abc7c0)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m13viyd2">
+            <score xml:id="s1yevvwh">
+               <scoreDef xml:id="s1sqgsul">
+                  <staffGrp xml:id="swigvp2">
+                     <staffDef xml:id="s1ho95rp" n="1" lines="5" clef.shape="F" clef.line="4" />
+                  </staffGrp>
+                  <keySig xml:id="k1p91bt0" sig="1f" />
+               </scoreDef>
+               <section xml:id="s11rutd2">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s1hn97h8" n="1">
+                        <layer xml:id="lmwmthe" n="1">
+                           <rest xml:id="r82fpt" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s14fmeoc" n="1">
+                        <layer xml:id="livwb27" n="1">
+                           <multiRest xml:id="mgx8bjh" num="9" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="s1f31sgl" n="1">
+                        <layer xml:id="l1ajik95" n="1">
+                           <rest xml:id="r3elz0m" dur="2" />
+                           <rest xml:id="r1bb0tuc" dur="4" />
+                           <rest xml:id="r6sh6uc" dur="8" />
+                           <note xml:id="n1waypqj" dur="8" oct="3" pname="d" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s6oscn4" n="1">
+                        <layer xml:id="lyt4ad" n="1">
+                           <note xml:id="nfx25hn" dur="2" oct="3" pname="f" />
+                           <note xml:id="n3ie8ud" dur="2" oct="3" pname="a" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="single">
+                     <staff xml:id="s19obtds" n="1">
+                        <layer xml:id="lm40ctx" n="1">
+                           <note xml:id="n37hn12" dur="2" oct="4" pname="d" />
+                           <note xml:id="n1kyp1ws" dur="4" oct="4" pname="d" />
+                           <rest xml:id="rgj8qwy" dur="8" />
+                           <note xml:id="n1eyoooy" dur="8" oct="4" pname="d" />
+                           <beam xml:id="b4oqxce">
+                              <note xml:id="nwtw03u" dur="8" oct="4" pname="f" />
+                              <note xml:id="n12ecyql" dur="8" oct="4" pname="e" />
+                           </beam>
+                           <beam xml:id="b1bpmbr1">
+                              <note xml:id="njwwkjn" dur="8" oct="4" pname="d" />
+                              <note xml:id="nzub3xf" dur="8" oct="4" pname="c">
+                                 <accid xml:id="a1y47wy7" accid="s" />
+                              </note>
+                           </beam>
+                           <beam xml:id="b1m11mph">
+                              <note xml:id="nzv1mc9" dur="8" oct="4" pname="d" />
+                              <note xml:id="n14qhuvu" dur="8" oct="4" pname="c">
+                                 <accid xml:id="aqqgytg" accid="n" />
+                              </note>
+                           </beam>
+                           <beam xml:id="b1oxd4nf">
+                              <note xml:id="n1dict13" dur="8" oct="3" pname="b">
+                                 <accid xml:id="a16wv72r" accid.ges="f" />
+                              </note>
+                              <note xml:id="ncz237t" dur="8" oct="3" pname="a" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mzodm98" right="invis">
+                     <staff xml:id="svzjjlx" n="1">
+                        <layer xml:id="l4bj489" n="1">
+                           <note xml:id="nwxt00x" dur="8" oct="3" pname="a" grace="acc" stem.dir="up" />
+                           <note xml:id="ndvl5ld" dur="4" oct="3" pname="g" />
+                           <beam xml:id="b23h8om">
+                              <note xml:id="n1nwbnw5" dur="8" oct="3" pname="f">
+                                 <accid xml:id="ameaduc" accid="s" />
+                              </note>
+                              <note xml:id="n1r78e3w" dur="8" oct="3" pname="g" />
+                           </beam>
+                           <note xml:id="njepdrb" dur="4" oct="3" pname="g" />
+                           <rest xml:id="rfggj11" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

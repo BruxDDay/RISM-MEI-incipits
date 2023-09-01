@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Déserteur - V (X), orch</title>
+            <title type="subordinate" label="1.22.1">SCENE VII. Moderato Con Sordini</title>
+            <composer>Monsigny, Pierre-Alexandre (1729-1817)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-04-06-21:27:38" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990041767" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990041767/incipits/1.22.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.15.0-5abc7c0">
+               <name>Verovio (3.15.0-5abc7c0)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m1yevvwh">
+            <score xml:id="s1sqgsul">
+               <scoreDef xml:id="s11rutd2">
+                  <staffGrp xml:id="s1ho95rp">
+                     <staffDef xml:id="s1wvbc8t" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+                  <keySig xml:id="k1hn97h8" sig="1s" />
+               </scoreDef>
+               <section xml:id="swigvp2">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="smwmthe" n="1">
+                        <layer xml:id="l14fmeoc" n="1">
+                           <tuplet xml:id="t1dict13" num="3" numbase="2">
+                              <rest xml:id="ra56g6u" dur="8" />
+                              <beam xml:id="bfx25hn">
+                                 <note xml:id="n2gqwr3" dur="8" oct="4" pname="e" />
+                                 <note xml:id="n1pfogn4" dur="8" oct="4" pname="e" />
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="tcz237t" num="3" numbase="2">
+                              <rest xml:id="r4ks4fv" dur="8" />
+                              <beam xml:id="b3ie8ud">
+                                 <note xml:id="n8j2ung" dur="8" oct="4" pname="g" />
+                                 <note xml:id="n1ahluu1" dur="8" oct="4" pname="g" />
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="twxt00x" num="3" numbase="2">
+                              <rest xml:id="r147azdb" dur="8" />
+                              <beam xml:id="b37hn12">
+                                 <note xml:id="n1iiegxs" dur="8" oct="4" pname="b" />
+                                 <note xml:id="nrbcoh7" dur="8" oct="4" pname="b" />
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="tdvl5ld" num="3" numbase="2">
+                              <rest xml:id="r1kzq82m" dur="8" />
+                              <beam xml:id="b1kyp1ws">
+                                 <note xml:id="nmlv5y5" dur="8" oct="5" pname="e" />
+                                 <note xml:id="n14xmp24" dur="8" oct="5" pname="e" />
+                              </beam>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="sivwb27" n="1">
+                        <layer xml:id="l1f31sgl" n="1">
+                           <tuplet xml:id="t1nwbnw5" num="3" numbase="2">
+                              <rest xml:id="rshell2" dur="8" />
+                              <beam xml:id="b1eyoooy">
+                                 <note xml:id="nju2rxn" dur="8" oct="4" pname="f">
+                                    <accid xml:id="a1bpmbr1" accid.ges="s" />
+                                 </note>
+                                 <note xml:id="nzodm98" dur="8" oct="4" pname="f">
+                                    <accid xml:id="a1m11mph" accid.ges="s" />
+                                 </note>
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="t1r78e3w" num="3" numbase="2">
+                              <beam xml:id="bwtw03u">
+                                 <note xml:id="n1mj6nxn" dur="8" oct="4" pname="f">
+                                    <accid xml:id="a1oxd4nf" accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n1d0qcvg" dur="8" oct="4" pname="a" />
+                                 <note xml:id="neeh8fz" dur="8" oct="4" pname="a" />
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="tjepdrb" num="3" numbase="2">
+                              <beam xml:id="b12ecyql">
+                                 <note xml:id="n5odh2d" dur="8" oct="4" pname="a" />
+                                 <note xml:id="n16gprxv" dur="8" oct="5" pname="c" />
+                                 <note xml:id="n1w2vfrn" dur="8" oct="4" pname="b" />
+                              </beam>
+                           </tuplet>
+                           <note xml:id="nk6xyvl" dur="4" oct="5" pname="c" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="s1ajik95" n="1">
+                        <layer xml:id="l6oscn4" n="1">
+                           <tuplet xml:id="t1y47wy7" num="3" numbase="2">
+                              <rest xml:id="ra734np" dur="8" />
+                              <beam xml:id="bjwwkjn">
+                                 <note xml:id="nhghzyb" dur="8" oct="4" pname="d">
+                                    <accid xml:id="a1waypqj" accid="s" />
+                                 </note>
+                                 <note xml:id="ngx8bjh" dur="8" oct="4" pname="d">
+                                    <accid xml:id="a23h8om" accid.ges="s" />
+                                 </note>
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="tqqgytg" num="3" numbase="2">
+                              <rest xml:id="r1cybpcc" dur="8" />
+                              <beam xml:id="bzub3xf">
+                                 <note xml:id="n82fpt" dur="8" oct="4" pname="f">
+                                    <accid xml:id="a16wv72r" accid.ges="s" />
+                                 </note>
+                                 <note xml:id="n3elz0m" dur="8" oct="4" pname="f">
+                                    <accid xml:id="a1n0fw13" accid.ges="s" />
+                                 </note>
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="tmeaduc" num="3" numbase="2">
+                              <rest xml:id="r15wwqth" dur="8" />
+                              <beam xml:id="bzv1mc9">
+                                 <note xml:id="n1bb0tuc" dur="8" oct="4" pname="a" />
+                                 <note xml:id="n6sh6uc" dur="8" oct="4" pname="a" />
+                              </beam>
+                           </tuplet>
+                           <tuplet xml:id="t4oqxce" num="3" numbase="2">
+                              <rest xml:id="rv3lqdm" dur="8" />
+                              <beam xml:id="b14qhuvu">
+                                 <note xml:id="ngj8qwy" dur="8" oct="5" pname="c" />
+                                 <note xml:id="nfggj11" dur="8" oct="5" pname="c" />
+                              </beam>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

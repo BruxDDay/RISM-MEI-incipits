@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Déserteur - V (X), orch</title>
+            <composer>Monsigny, Pierre-Alexandre (1729-1817)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-04-06-21:26:32" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990041767" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990041767/incipits/1.4.2/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.15.0-5abc7c0">
+               <name>Verovio (3.15.0-5abc7c0)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mgj8qwy">
+            <score xml:id="sfggj11">
+               <scoreDef xml:id="s1waypqj">
+                  <staffGrp xml:id="s3ie8ud">
+                     <staffDef xml:id="s37hn12" n="1" lines="5" clef.shape="F" clef.line="4" />
+                  </staffGrp>
+                  <keySig xml:id="kzv1mc9" sig="2s" />
+               </scoreDef>
+               <section xml:id="sfx25hn">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s14qhuvu" n="1">
+                        <layer xml:id="l1dict13" n="1">
+                           <multiRest xml:id="mzodm98" num="9" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="scz237t" n="1">
+                        <layer xml:id="lwxt00x" n="1">
+                           <note xml:id="n1d0qcvg" dur="1" oct="4" pname="d" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="sdvl5ld" n="1">
+                        <layer xml:id="l1nwbnw5" n="1">
+                           <note xml:id="neeh8fz" dur="2" oct="4" pname="d" />
+                           <note xml:id="n5odh2d" dur="4" oct="3" pname="d" />
+                           <note xml:id="n16gprxv" dur="4" oct="3" pname="g" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s1r78e3w" n="1">
+                        <layer xml:id="ljepdrb" n="1">
+                           <note xml:id="n1w2vfrn" dur="2" oct="3" pname="f">
+                              <accid xml:id="a1bb0tuc" accid.ges="s" />
+                           </note>
+                           <note xml:id="nk6xyvl" dur="2" oct="3" pname="e" />
+                           <beam xml:id="b3elz0m">
+                              <note xml:id="nhghzyb" dur="16" oct="3" pname="d" grace="acc" stem.dir="up" />
+                              <note xml:id="ngx8bjh" dur="16" oct="3" pname="e" grace="acc" stem.dir="up" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="invis">
+                     <staff xml:id="s1y47wy7" n="1">
+                        <layer xml:id="lqqgytg" n="1">
+                           <note xml:id="n82fpt" dur="2" oct="3" pname="d" />
+                           <rest xml:id="r1mj6nxn" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

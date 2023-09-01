@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Déserteur - V (X), orch</title>
+            <composer>Monsigny, Pierre-Alexandre (1729-1817)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-04-06-21:27:50" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990041767" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990041767/incipits/1.24.2/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.15.0-5abc7c0">
+               <name>Verovio (3.15.0-5abc7c0)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m1mj6nxn">
+            <score xml:id="s1d0qcvg">
+               <scoreDef xml:id="seeh8fz">
+                  <staffGrp xml:id="s16gprxv">
+                     <staffDef xml:id="s1w2vfrn" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+                  <keySig xml:id="k6sh6uc" sig="3f" />
+               </scoreDef>
+               <section xml:id="s5odh2d">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="sgj8qwy" n="1">
+                        <layer xml:id="lfggj11" n="1">
+                           <multiRest xml:id="ma56g6u" num="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s1waypqj" n="1">
+                        <layer xml:id="lfx25hn" n="1">
+                           <rest xml:id="r4ks4fv" dur="16" />
+                           <note xml:id="n1cybpcc" dur="16" oct="5" pname="d" />
+                           <note xml:id="n15wwqth" dur="8" oct="5" pname="d" />
+                           <note xml:id="nv3lqdm" dur="8" oct="5" pname="d" />
+                           <rest xml:id="r147azdb" dur="16" />
+                           <note xml:id="n2gqwr3" dur="16" oct="4" pname="g" />
+                           <note xml:id="n1pfogn4" dur="4" oct="5" pname="c" />
+                           <rest xml:id="r1kzq82m" dur="16" />
+                           <note xml:id="n8j2ung" dur="16" oct="5" pname="c" />
+                           <note xml:id="n1ahluu1" dur="16" oct="5" pname="c" />
+                           <note xml:id="n1iiegxs" dur="16" oct="4" pname="g" />
+                        </layer>
+                     </staff>
+                     <fermata xml:id="f14xmp24" startid="#r4ks4fv" />
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="s3ie8ud" n="1">
+                        <layer xml:id="l37hn12" n="1">
+                           <note xml:id="nrbcoh7" dur="8" oct="4" pname="g" grace="acc" stem.dir="up" />
+                           <note xml:id="nmlv5y5" dur="4" oct="4" pname="a">
+                              <accid xml:id="aju2rxn" accid.ges="f" />
+                           </note>
+                           <rest xml:id="rshell2" dur="4" />
+                           <rest xml:id="ra734np" dur="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

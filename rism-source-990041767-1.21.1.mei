@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Déserteur - V (X), orch</title>
+            <title type="subordinate" label="1.21.1">SCENE VI. Allegro Poco Maestoso</title>
+            <composer>Monsigny, Pierre-Alexandre (1729-1817)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-04-06-21:27:36" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990041767" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990041767/incipits/1.21.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.15.0-5abc7c0">
+               <name>Verovio (3.15.0-5abc7c0)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mqqgytg">
+            <score xml:id="smeaduc">
+               <scoreDef xml:id="s4oqxce">
+                  <staffGrp xml:id="s1m11mph">
+                     <staffDef xml:id="s1oxd4nf" n="1" lines="5" clef.shape="F" clef.line="4" />
+                  </staffGrp>
+                  <keySig xml:id="k11rutd2" sig="0" />
+               </scoreDef>
+               <section xml:id="s1bpmbr1">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="swigvp2" n="1">
+                        <layer xml:id="l1ho95rp" n="1">
+                           <rest xml:id="r37hn12" dur="8" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s1wvbc8t" n="1">
+                        <layer xml:id="l4s4uc4" n="1">
+                           <multiRest xml:id="m3ie8ud" num="7" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="so3qcsy" n="1">
+                        <layer xml:id="lgtp1zt" n="1">
+                           <rest xml:id="r1kyp1ws" dur="2" />
+                           <rest xml:id="r1eyoooy" dur="4" />
+                           <rest xml:id="rwtw03u" dur="8" />
+                           <note xml:id="n12ecyql" dur="8" oct="3" pname="g" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s1wb3e2s" n="1">
+                        <layer xml:id="l1c77hfv" n="1">
+                           <note xml:id="njwwkjn" dur="2" oct="4" pname="c" />
+                           <note xml:id="nzub3xf" dur="2" oct="3" pname="g" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="single">
+                     <staff xml:id="s1p91bt0" n="1">
+                        <layer xml:id="l1hn97h8" n="1">
+                           <note xml:id="nzv1mc9" dur="4" oct="3" pname="e" />
+                           <note xml:id="n14qhuvu" dur="4" oct="3" pname="c" />
+                           <note xml:id="n1dict13" dur="4" oct="3" pname="e" />
+                           <note xml:id="ncz237t" dur="4" oct="3" pname="g" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mzodm98" right="single">
+                     <staff xml:id="smwmthe" n="1">
+                        <layer xml:id="l14fmeoc" n="1">
+                           <note xml:id="nwxt00x" dur="4" oct="3" pname="e" />
+                           <note xml:id="ndvl5ld" dur="4" oct="3" pname="c" />
+                           <note xml:id="n1nwbnw5" dur="4" oct="3" pname="d" />
+                           <note xml:id="n1r78e3w" dur="4" oct="3" pname="g" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mgx8bjh" right="single">
+                     <staff xml:id="sivwb27" n="1">
+                        <layer xml:id="l1f31sgl" n="1">
+                           <note xml:id="njepdrb" dur="1" oct="4" pname="c" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

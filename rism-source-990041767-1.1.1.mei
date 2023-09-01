@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Le Déserteur - V (X), orch</title>
+            <title type="subordinate" label="1.1.1">OUVERTURE Allegretto Soutenato</title>
+            <composer>Monsigny, Pierre-Alexandre (1729-1817)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-04-06-21:26:17" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990041767" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990041767/incipits/1.1.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.15.0-5abc7c0">
+               <name>Verovio (3.15.0-5abc7c0)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mzub3xf">
+            <score xml:id="szv1mc9">
+               <scoreDef xml:id="s14qhuvu">
+                  <staffGrp xml:id="scz237t">
+                     <staffDef xml:id="swxt00x" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+                  <keySig xml:id="kmeaduc" sig="2s" />
+               </scoreDef>
+               <section xml:id="s1dict13">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s4oqxce" n="1">
+                        <layer xml:id="l1bpmbr1" n="1">
+                           <beam xml:id="b1kyp1ws">
+                              <note xml:id="nzodm98" dur="8" oct="4" pname="a" />
+                              <note xml:id="n1mj6nxn" dur="8" oct="4" pname="a" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s1m11mph" n="1">
+                        <layer xml:id="l1oxd4nf" n="1">
+                           <note xml:id="n1d0qcvg" dots="1" dur="4" oct="5" pname="d" />
+                           <note xml:id="neeh8fz" dur="8" oct="5" pname="e" />
+                           <note xml:id="n5odh2d" dur="4" oct="5" pname="f">
+                              <accid xml:id="a1eyoooy" accid.ges="s" />
+                           </note>
+                           <note xml:id="n16gprxv" dur="4" oct="5" pname="e" />
+                        </layer>
+                     </staff>
+                     <trill xml:id="tfx25hn" startid="#n16gprxv" />
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="s23h8om" n="1">
+                        <layer xml:id="l16wv72r" n="1">
+                           <note xml:id="n1w2vfrn" dur="4" oct="5" pname="d" />
+                           <note xml:id="nk6xyvl" dur="4" oct="4" pname="a" />
+                           <note xml:id="nhghzyb" dur="4" oct="4" pname="b" />
+                           <note xml:id="ngx8bjh" dur="4" oct="4" pname="a" />
+                        </layer>
+                     </staff>
+                     <trill xml:id="t3ie8ud" startid="#nhghzyb" />
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s1n0fw13" n="1">
+                        <layer xml:id="l13viyd2" n="1">
+                           <note xml:id="n82fpt" dots="1" dur="4" oct="5" pname="d" />
+                           <note xml:id="n3elz0m" dur="8" oct="5" pname="e" />
+                           <note xml:id="n1bb0tuc" dur="4" oct="5" pname="f">
+                              <accid xml:id="awtw03u" accid.ges="s" />
+                           </note>
+                           <note xml:id="n6sh6uc" dur="4" oct="5" pname="e" />
+                        </layer>
+                     </staff>
+                     <trill xml:id="t37hn12" startid="#n6sh6uc" />
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="single">
+                     <staff xml:id="s1yevvwh" n="1">
+                        <layer xml:id="l1sqgsul" n="1">
+                           <note xml:id="ngj8qwy" dur="2" oct="5" pname="d" />
+                           <note xml:id="nfggj11" dur="4" oct="5" pname="e" />
+                           <note xml:id="n1waypqj" dur="4" oct="5" pname="f">
+                              <accid xml:id="a12ecyql" accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
