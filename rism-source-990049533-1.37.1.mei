@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.37.1">Larghetto</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-01:00:49" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.37.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m1mj6nxn">
+            <score xml:id="s1d0qcvg">
+               <scoreDef xml:id="seeh8fz">
+                  <keySig xml:id="k6sh6uc" sig="2s" />
+                  <staffGrp xml:id="s16gprxv">
+                     <staffDef xml:id="s1w2vfrn" n="1" lines="5" clef.shape="C" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s5odh2d">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="sgj8qwy" n="1">
+                        <layer xml:id="lfggj11" n="1">
+                           <rest xml:id="rmwwo00" dur="4" />
+                           <rest xml:id="r1s4ffnc" dots="1" dur="16" />
+                           <note xml:id="n1ffvwuh" dur="32" oct="3" pname="a" />
+                           <note xml:id="nzosgrv" dots="1" dur="16" oct="3" pname="b" />
+                           <note xml:id="n1q84ocf" dur="32" oct="4" pname="c">
+                              <accid xml:id="a1iiegxs" accid.ges="s" />
+                           </note>
+                           <note xml:id="n1gzuhvg" dur="4" oct="4" pname="d" />
+                           <note xml:id="n1vw1hrc" dots="1" dur="16" oct="4" pname="d" />
+                           <note xml:id="n36inxr" dur="32" oct="4" pname="d" />
+                           <note xml:id="na56g6u" dots="1" dur="16" oct="4" pname="f">
+                              <accid xml:id="arbcoh7" accid.ges="s" />
+                           </note>
+                           <note xml:id="n4ks4fv" dur="32" oct="4" pname="d" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="t1ahluu1" startid="#n1gzuhvg" endid="#n1vw1hrc" />
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s1waypqj" n="1">
+                        <layer xml:id="lfx25hn" n="1">
+                           <note xml:id="n147azdb" dur="8" oct="3" pname="b" />
+                           <rest xml:id="r9ixwzy" dur="16" />
+                           <note xml:id="n1kzq82m" dur="16" oct="4" pname="d" />
+                           <beam xml:id="b8j2ung">
+                              <note xml:id="nshell2" dur="16" oct="4" pname="g" />
+                              <note xml:id="na734np" dur="16" oct="4" pname="f">
+                                 <accid xml:id="amlv5y5" accid.ges="s" />
+                              </note>
+                           </beam>
+                           <note xml:id="n1cybpcc" dur="16" oct="4" pname="e" />
+                           <note xml:id="n15wwqth" dur="16" oct="4" pname="d" />
+                           <note xml:id="nv3lqdm" dur="4" oct="4" pname="c">
+                              <accid xml:id="a14xmp24" accid.ges="s" />
+                           </note>
+                           <note xml:id="n2gqwr3" dots="1" dur="8" oct="4" pname="c">
+                              <accid xml:id="aju2rxn" accid.ges="s" />
+                           </note>
+                           <note xml:id="n1pfogn4" dur="16" oct="4" pname="e" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

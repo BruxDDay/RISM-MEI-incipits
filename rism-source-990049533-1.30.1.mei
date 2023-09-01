@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.30.1">Allegro agitato</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-01:00:16" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.30.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="m6sh6uc">
+            <score xml:id="sgj8qwy">
+               <scoreDef xml:id="sfggj11">
+                  <keySig xml:id="kzub3xf" sig="1f" />
+                  <staffGrp xml:id="sfx25hn">
+                     <staffDef xml:id="s3ie8ud" n="1" lines="5" clef.shape="C" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1waypqj">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="szv1mc9" n="1">
+                        <layer xml:id="l14qhuvu" n="1">
+                           <multiRest xml:id="mzodm98" num="3" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s1dict13" n="1">
+                        <layer xml:id="lcz237t" n="1">
+                           <rest xml:id="r1mj6nxn" dur="2" />
+                           <rest xml:id="r1d0qcvg" dur="4" />
+                           <rest xml:id="reeh8fz" dur="8" />
+                           <note xml:id="n5odh2d" dur="8" oct="4" pname="d" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="swxt00x" n="1">
+                        <layer xml:id="ldvl5ld" n="1">
+                           <note xml:id="n16gprxv" dots="1" dur="2" oct="4" pname="c">
+                              <accid xml:id="a3elz0m" accid="s" />
+                           </note>
+                           <note xml:id="n1w2vfrn" dur="4" oct="4" pname="e" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s1nwbnw5" n="1">
+                        <layer xml:id="l1r78e3w" n="1">
+                           <note xml:id="nk6xyvl" dur="2" oct="4" pname="g" />
+                           <note xml:id="nhghzyb" dur="4" oct="4" pname="f" />
+                           <note xml:id="ngx8bjh" dur="4" oct="4" pname="e" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="invis">
+                     <staff xml:id="sjepdrb" n="1">
+                        <layer xml:id="l1y47wy7" n="1">
+                           <note xml:id="n82fpt" dur="2" oct="4" pname="d" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.22.1">Allegro sans presser</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-00:59:42" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.22.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mmlv5y5">
+            <score xml:id="s14xmp24">
+               <scoreDef xml:id="sju2rxn">
+                  <keySig xml:id="kgx8bjh" sig="2s" />
+                  <staffGrp xml:id="s1mj6nxn">
+                     <staffDef xml:id="s1d0qcvg" n="1" lines="5" clef.shape="F" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="szodm98">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s82fpt" n="1">
+                        <layer xml:id="l3elz0m" n="1">
+                           <note xml:id="na56g6u" dur="8" oct="3" pname="d" />
+                           <note xml:id="n4ks4fv" dur="8" oct="3" pname="f">
+                              <accid xml:id="a8j2ung" accid.ges="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s1bb0tuc" n="1">
+                        <layer xml:id="l6sh6uc" n="1">
+                           <note xml:id="n147azdb" dots="1" dur="4" oct="3" pname="a" />
+                           <note xml:id="n1kzq82m" dur="8" oct="3" pname="b" />
+                           <beam xml:id="b1pfogn4">
+                              <note xml:id="nshell2" dur="8" oct="4" pname="c">
+                                 <accid xml:id="a1ahluu1" accid.ges="s" />
+                              </note>
+                              <note xml:id="na734np" dur="8" oct="4" pname="d" />
+                           </beam>
+                           <note xml:id="n1cybpcc" dur="8" oct="4" pname="c">
+                              <accid xml:id="a1iiegxs" accid.ges="s" />
+                           </note>
+                           <note xml:id="n15wwqth" dur="8" oct="3" pname="b" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="invis">
+                     <staff xml:id="sgj8qwy" n="1">
+                        <layer xml:id="lfggj11" n="1">
+                           <note xml:id="nv3lqdm" dur="4" oct="3" pname="a" />
+                           <note xml:id="n2gqwr3" dur="4" oct="3" pname="a" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.30.2">Allegro agitato</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-01:00:20" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.30.2/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mhghzyb">
+            <score xml:id="sgx8bjh">
+               <scoreDef xml:id="s82fpt">
+                  <keySig xml:id="k1kyp1ws" sig="1f" />
+                  <staffGrp xml:id="s1bb0tuc">
+                     <staffDef xml:id="s6sh6uc" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s3elz0m">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s1eyoooy" n="1">
+                        <layer xml:id="lwtw03u" n="1">
+                           <note xml:id="n1cybpcc" dur="4" oct="4" pname="d" />
+                           <rest xml:id="ra56g6u" dur="4" />
+                           <rest xml:id="r4ks4fv" dur="4" />
+                           <note xml:id="n15wwqth" dur="8" oct="5" pname="g" grace="unacc" stem.dir="up" />
+                           <beam xml:id="b5odh2d">
+                              <note xml:id="nv3lqdm" dur="16" oct="5" pname="f" />
+                              <note xml:id="n2gqwr3" dur="16" oct="5" pname="e" />
+                              <note xml:id="n1pfogn4" dur="16" oct="5" pname="f" />
+                              <note xml:id="n8j2ung" dur="16" oct="5" pname="g" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s12ecyql" n="1">
+                        <layer xml:id="ljwwkjn" n="1">
+                           <note xml:id="n1ahluu1" dur="4" oct="5" pname="a" />
+                           <rest xml:id="r147azdb" dur="4" />
+                           <rest xml:id="r1kzq82m" dur="4" />
+                           <note xml:id="n1iiegxs" dur="8" oct="5" pname="g" grace="unacc" stem.dir="up" />
+                           <beam xml:id="b16gprxv">
+                              <note xml:id="nrbcoh7" dur="16" oct="5" pname="f" />
+                              <note xml:id="nmlv5y5" dur="16" oct="5" pname="e" />
+                              <note xml:id="n14xmp24" dur="16" oct="5" pname="f" />
+                              <note xml:id="nju2rxn" dur="16" oct="5" pname="g" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="szub3xf" n="1">
+                        <layer xml:id="lzv1mc9" n="1">
+                           <note xml:id="nzodm98" dur="4" oct="5" pname="a" />
+                           <rest xml:id="rshell2" dur="4" />
+                           <rest xml:id="ra734np" dur="8" />
+                           <beam xml:id="b1w2vfrn">
+                              <note xml:id="n1mj6nxn" dur="8" oct="5" pname="a" />
+                              <note xml:id="n1d0qcvg" dur="8" oct="5" pname="a" />
+                              <note xml:id="neeh8fz" dur="8" oct="6" pname="d" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.34.1">Andante un peu animé</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-01:00:37" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.34.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mwtw03u">
+            <score xml:id="s12ecyql">
+               <scoreDef xml:id="sjwwkjn">
+                  <keySig xml:id="kjepdrb" sig="0" />
+                  <staffGrp xml:id="szv1mc9">
+                     <staffDef xml:id="s14qhuvu" n="1" lines="5" clef.shape="C" clef.line="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="szub3xf">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="s1y47wy7" n="1">
+                        <layer xml:id="lqqgytg" n="1">
+                           <multiRest xml:id="mzodm98" num="40" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="smeaduc" n="1">
+                        <layer xml:id="l4oqxce" n="1">
+                           <rest xml:id="r1mj6nxn" dur="4" />
+                           <rest xml:id="r1d0qcvg" dots="1" dur="8" />
+                           <note xml:id="neeh8fz" dur="16" oct="5" pname="g" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="s1bpmbr1" n="1">
+                        <layer xml:id="l1m11mph" n="1">
+                           <note xml:id="n5odh2d" dur="4" oct="5" pname="g" />
+                           <beam xml:id="bfx25hn">
+                              <note xml:id="n16gprxv" dur="16" oct="5" pname="f" />
+                              <note xml:id="n1w2vfrn" dur="16" oct="5" pname="e" />
+                           </beam>
+                           <beam xml:id="b3ie8ud">
+                              <note xml:id="nk6xyvl" dur="16" oct="5" pname="d" />
+                              <note xml:id="nhghzyb" dur="16" oct="5" pname="c" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="ma56g6u" right="single">
+                     <staff xml:id="s1oxd4nf" n="1">
+                        <layer xml:id="l23h8om" n="1">
+                           <note xml:id="ngx8bjh" dur="4" oct="5" pname="c" />
+                           <note xml:id="n82fpt" dur="8" oct="4" pname="b" />
+                           <note xml:id="n3elz0m" dur="8" oct="5" pname="d" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2gqwr3" right="single">
+                     <staff xml:id="s16wv72r" n="1">
+                        <layer xml:id="l1n0fw13" n="1">
+                           <note xml:id="n1bb0tuc" dur="4" oct="5" pname="d" />
+                           <beam xml:id="b37hn12">
+                              <note xml:id="n6sh6uc" dur="16" oct="5" pname="f" />
+                              <note xml:id="ngj8qwy" dur="16" oct="5" pname="d" />
+                           </beam>
+                           <beam xml:id="b1kyp1ws">
+                              <note xml:id="nfggj11" dur="16" oct="5" pname="c" />
+                              <note xml:id="n1waypqj" dur="16" oct="4" pname="b" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

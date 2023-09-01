@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.20.2">annoncé pour la descente de Cybele</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-00:59:35" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.20.2/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mv3lqdm">
+            <score xml:id="s2gqwr3">
+               <scoreDef xml:id="s1pfogn4">
+                  <keySig xml:id="k1d0qcvg" sig="2s" />
+                  <staffGrp xml:id="s1ahluu1">
+                     <staffDef xml:id="s1iiegxs" n="1" lines="5" clef.shape="C" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s8j2ung">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="seeh8fz" n="1">
+                        <layer xml:id="l5odh2d" n="1">
+                           <multiRest xml:id="ma56g6u" num="10" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s16gprxv" n="1">
+                        <layer xml:id="l1w2vfrn" n="1">
+                           <rest xml:id="r4ks4fv" dur="4" />
+                           <note xml:id="n147azdb" dur="8" oct="4" pname="e" />
+                           <note xml:id="n1kzq82m" dur="8" oct="4" pname="e" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="single">
+                     <staff xml:id="sk6xyvl" n="1">
+                        <layer xml:id="lhghzyb" n="1">
+                           <note xml:id="nshell2" dur="4" oct="4" pname="e" />
+                           <note xml:id="na734np" dur="8" oct="4" pname="e" />
+                           <note xml:id="n1cybpcc" dur="8" oct="4" pname="e" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

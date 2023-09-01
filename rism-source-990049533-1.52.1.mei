@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Atys - V (8), Coro, orch</title>
+            <title type="subordinate" label="1.52.1">un peu animé</title>
+            <composer>Piccinni, Niccolò (1728-1800)</composer>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023-08-24-01:01:39" />
+            <identifier>
+               <ptr type="rism:Source" target="https://rism.online/sources/990049533" />
+               <ptr type="rism:Incipit" target="https://rism.online/sources/990049533/incipits/1.52.1/mei" />
+            </identifier>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verovio" version="3.16.0-6dc700d">
+               <name>Verovio (3.16.0-6dc700d)</name>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>MEI encoded with Verovio</p>
+            <p>Converted from Plaine and Easie to MEI</p>
+         </projectDesc>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="mrbcoh7">
+            <score xml:id="smlv5y5">
+               <scoreDef xml:id="s14xmp24">
+                  <keySig xml:id="khghzyb" sig="3f" />
+                  <staffGrp xml:id="szodm98">
+                     <staffDef xml:id="s1mj6nxn" n="1" lines="5" clef.shape="C" clef.line="4" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="sju2rxn">
+                  <measure xml:id="mfnjo7e" right="single">
+                     <staff xml:id="sgx8bjh" n="1">
+                        <layer xml:id="l82fpt" n="1">
+                           <note xml:id="n4ks4fv" dots="1" dur="8" oct="4" pname="c" />
+                           <note xml:id="n147azdb" dur="16" oct="3" pname="g" />
+                           <note xml:id="n1kzq82m" dur="4" oct="3" pname="g" />
+                           <rest xml:id="ra56g6u" dur="2" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mhbsl03" right="single">
+                     <staff xml:id="s3elz0m" n="1">
+                        <layer xml:id="l1bb0tuc" n="1">
+                           <note xml:id="nshell2" dots="1" dur="2" oct="4" pname="g" />
+                           <beam xml:id="b8j2ung">
+                              <note xml:id="na734np" dur="16" oct="4" pname="f" />
+                              <note xml:id="n1cybpcc" dur="16" oct="4" pname="e">
+                                 <accid xml:id="a1ahluu1" accid.ges="f" />
+                              </note>
+                              <note xml:id="n15wwqth" dur="16" oct="4" pname="d" />
+                              <note xml:id="nv3lqdm" dur="16" oct="4" pname="c" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmwwo00" right="invis">
+                     <staff xml:id="s6sh6uc" n="1">
+                        <layer xml:id="lgj8qwy" n="1">
+                           <note xml:id="n2gqwr3" dur="4" oct="4" pname="d" />
+                           <note xml:id="n1pfogn4" dur="2" oct="4" pname="c" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
